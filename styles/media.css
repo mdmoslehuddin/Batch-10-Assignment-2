@@ -7,6 +7,10 @@
         margin-top: 20px;
         
     }
+
+    .banner-main{
+        flex-direction: column;
+    }
     
     .fh-off{
         top: 12%;
@@ -16,12 +20,24 @@
         top: 60%;
         left: 0%;
     }
+    .bim-content{
+        flex-direction: column;
+    }
+    .bim-childs{
+        width: 50%;
+        /* border: 2px solid green; */
+    }
+        
     .skills-contain{
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    
+    .get{
+        width: 50%;
+    }
 
 }
-
 @media screen and (max-width:576px) {
     .nav-hamburger-menu{
         display: block;
@@ -46,44 +62,34 @@
         top: 50%;
         left: 0%;
     }
-    .bim-content{
-        flex-direction: column;
-    }
+   
     .skills-contain{
         grid-template-columns: repeat(1, 1fr);
     }
-    
-    }
-/* run content section starts here  */
-    /* .run-banner{
-        
-    
-    }
-
-    .btn3{
-        background-color: #E6533C;
-        color: white;
-        padding: 10px 100px;
-        border: none;
-        border-radius: 20px;
-    
-    }
-    .run-childs{
-        
-    } */
-    /* run content section ends here  */
-
-
-    /* .meet-content img {
-        height: 100%;
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .meet{
-        grid-template-columns: repeat(1, 1fr);
-    } */
-    /* .Fitness-content{
+    .run-banner{
         flex-direction: column;
-    } */
+        
+    }
+  .run-childs{
+    padding: 10px 0; 
+   }
+    .btn3{
+        padding: 10px 110px;
+    }
+    .bim-content{
+        flex-direction: column;
+    }
+    .card-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .c1 {
+        display: none;
+    }
+    .c4{
+        display: none;
+    }
+    .fgg-content{
+        flex-direction: column;
+    }
     
-}
+    }
